@@ -1,0 +1,325 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yo',
+1 verbose cli   'generator-aurora' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'yo', null ]
+5 verbose cache add name=undefined spec="yo" args=["yo",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yo',
+6 verbose parsed url   path: 'yo',
+6 verbose parsed url   href: 'yo' }
+7 verbose cache add [ 'generator-aurora', null ]
+8 verbose cache add name=undefined spec="generator-aurora" args=["generator-aurora",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'generator-aurora',
+9 verbose parsed url   path: 'generator-aurora',
+9 verbose parsed url   href: 'generator-aurora' }
+10 silly lockFile c41975d1-yo yo
+11 verbose lock yo /Users/schets/.npm/c41975d1-yo.lock
+12 silly lockFile a78ceef5-generator-aurora generator-aurora
+13 verbose lock generator-aurora /Users/schets/.npm/a78ceef5-generator-aurora.lock
+14 silly lockFile c41975d1-yo yo
+15 silly lockFile c41975d1-yo yo
+16 silly lockFile a78ceef5-generator-aurora generator-aurora
+17 silly lockFile a78ceef5-generator-aurora generator-aurora
+18 verbose addNamed [ 'yo', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile d937c28e-yo yo@
+21 verbose lock yo@ /Users/schets/.npm/d937c28e-yo.lock
+22 verbose addNamed [ 'generator-aurora', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 6dd66e00-generator-aurora generator-aurora@
+25 verbose lock generator-aurora@ /Users/schets/.npm/6dd66e00-generator-aurora.lock
+26 silly addNameRange { name: 'yo', range: '*', hasData: false }
+27 silly addNameRange { name: 'generator-aurora', range: '*', hasData: false }
+28 verbose request where is /yo
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id c45e2f4e3ec8fe42
+31 verbose url raw /yo
+32 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+33 verbose url resolved https://registry.npmjs.org/yo
+34 verbose request where is https://registry.npmjs.org/yo
+35 info trying registry request attempt 1 at 21:48:51
+36 verbose etag "ZDV2LLF63DSBHMCIAG5N2D8H"
+37 http GET https://registry.npmjs.org/yo
+38 verbose request where is /generator-aurora
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /generator-aurora
+41 verbose url resolving [ 'https://registry.npmjs.org/', './generator-aurora' ]
+42 verbose url resolved https://registry.npmjs.org/generator-aurora
+43 verbose request where is https://registry.npmjs.org/generator-aurora
+44 info trying registry request attempt 1 at 21:48:51
+45 verbose etag "F07MD1ZDH1TAHEZSCS96JFKYW"
+46 http GET https://registry.npmjs.org/generator-aurora
+47 http 304 https://registry.npmjs.org/yo
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Tue, 20 Jan 2015 20:48:53 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 20:48:53 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"ZDV2LLF63DSBHMCIAG5N2D8H"',
+48 silly registry.get     age: '0',
+48 silly registry.get     'x-served-by': 'cache-ams4141-AMS',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '1',
+48 silly registry.get     'x-timer': 'S1421786933.031962,VS0,VE90',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag https://registry.npmjs.org/yo from cache
+50 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+51 silly addNameRange versions [ 'yo',
+51 silly addNameRange   [ '1.0.0-beta.1',
+51 silly addNameRange     '1.0.0-beta.2',
+51 silly addNameRange     '1.0.0-beta.3',
+51 silly addNameRange     '1.0.0-beta.4',
+51 silly addNameRange     '1.0.0-beta.5',
+51 silly addNameRange     '1.0.0-beta.6',
+51 silly addNameRange     '1.0.0-beta.7',
+51 silly addNameRange     '1.0.0-rc.1',
+51 silly addNameRange     '1.0.0-rc.1.1',
+51 silly addNameRange     '1.0.0-rc.1.2',
+51 silly addNameRange     '1.0.0-rc.1.3',
+51 silly addNameRange     '1.0.0-rc.1.4',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.0.1',
+51 silly addNameRange     '1.0.2',
+51 silly addNameRange     '1.0.3',
+51 silly addNameRange     '1.0.4',
+51 silly addNameRange     '1.0.5',
+51 silly addNameRange     '1.0.6',
+51 silly addNameRange     '1.0.7-pre.1',
+51 silly addNameRange     '1.0.7-pre.2',
+51 silly addNameRange     '1.0.7-pre.3',
+51 silly addNameRange     '1.1.0',
+51 silly addNameRange     '1.1.1',
+51 silly addNameRange     '1.1.2',
+51 silly addNameRange     '1.2.0',
+51 silly addNameRange     '1.2.1',
+51 silly addNameRange     '1.3.0',
+51 silly addNameRange     '1.3.2',
+51 silly addNameRange     '1.3.3' ] ]
+52 verbose addNamed [ 'yo', '1.3.3' ]
+53 verbose addNamed [ '1.3.3', '1.3.3' ]
+54 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+55 verbose lock yo@1.3.3 /Users/schets/.npm/68164736-yo-1-3-3.lock
+56 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+57 silly lockFile 68164736-yo-1-3-3 yo@1.3.3
+58 silly lockFile d937c28e-yo yo@
+59 silly lockFile d937c28e-yo yo@
+60 http 304 https://registry.npmjs.org/generator-aurora
+61 silly registry.get cb [ 304,
+61 silly registry.get   { date: 'Tue, 20 Jan 2015 20:48:53 GMT',
+61 silly registry.get     server: 'Apache',
+61 silly registry.get     via: '1.1 varnish',
+61 silly registry.get     'last-modified': 'Tue, 20 Jan 2015 20:48:53 GMT',
+61 silly registry.get     'cache-control': 'max-age=60',
+61 silly registry.get     etag: '"F07MD1ZDH1TAHEZSCS96JFKYW"',
+61 silly registry.get     age: '0',
+61 silly registry.get     'x-served-by': 'cache-ams4130-AMS',
+61 silly registry.get     'x-cache': 'HIT',
+61 silly registry.get     'x-cache-hits': '1',
+61 silly registry.get     'x-timer': 'S1421786933.028029,VS0,VE379',
+61 silly registry.get     vary: 'Accept',
+61 silly registry.get     'content-length': '0',
+61 silly registry.get     'keep-alive': 'timeout=10, max=50',
+61 silly registry.get     connection: 'Keep-Alive' } ]
+62 verbose etag https://registry.npmjs.org/generator-aurora from cache
+63 silly addNameRange number 2 { name: 'generator-aurora', range: '*', hasData: true }
+64 silly addNameRange versions [ 'generator-aurora',
+64 silly addNameRange   [ '0.1.0',
+64 silly addNameRange     '0.2.0',
+64 silly addNameRange     '0.2.1',
+64 silly addNameRange     '0.2.2',
+64 silly addNameRange     '0.2.3',
+64 silly addNameRange     '0.2.4',
+64 silly addNameRange     '0.2.5',
+64 silly addNameRange     '0.2.6',
+64 silly addNameRange     '0.2.7',
+64 silly addNameRange     '0.3.0' ] ]
+65 verbose addNamed [ 'generator-aurora', '0.3.0' ]
+66 verbose addNamed [ '0.3.0', '0.3.0' ]
+67 silly lockFile fa538632-generator-aurora-0-3-0 generator-aurora@0.3.0
+68 verbose lock generator-aurora@0.3.0 /Users/schets/.npm/fa538632-generator-aurora-0-3-0.lock
+69 silly lockFile fa538632-generator-aurora-0-3-0 generator-aurora@0.3.0
+70 silly lockFile fa538632-generator-aurora-0-3-0 generator-aurora@0.3.0
+71 silly lockFile 6dd66e00-generator-aurora generator-aurora@
+72 silly lockFile 6dd66e00-generator-aurora generator-aurora@
+73 silly resolved [ { name: 'yo',
+73 silly resolved     version: '1.3.3',
+73 silly resolved     description: 'CLI tool for running Yeoman generators',
+73 silly resolved     license: 'BSD',
+73 silly resolved     bin: { yo: 'cli.js' },
+73 silly resolved     author: { name: 'The Yeoman Team' },
+73 silly resolved     repository: { type: 'git', url: 'https://github.com/yeoman/yo' },
+73 silly resolved     engines: { node: '>=0.10.0', npm: '>=1.4.3' },
+73 silly resolved     scripts:
+73 silly resolved      { test: 'grunt',
+73 silly resolved        postinstall: 'yodoctor',
+73 silly resolved        postupdate: 'yodoctor' },
+73 silly resolved     files: [ 'cli.js', 'yoyo.js' ],
+73 silly resolved     keywords:
+73 silly resolved      [ 'front-end',
+73 silly resolved        'development',
+73 silly resolved        'dev',
+73 silly resolved        'build',
+73 silly resolved        'web',
+73 silly resolved        'tool',
+73 silly resolved        'cli',
+73 silly resolved        'scaffold',
+73 silly resolved        'stack',
+73 silly resolved        'yeoman',
+73 silly resolved        'generator',
+73 silly resolved        'app' ],
+73 silly resolved     dependencies:
+73 silly resolved      { async: '^0.9.0',
+73 silly resolved        chalk: '^0.5.1',
+73 silly resolved        configstore: '^0.3.1',
+73 silly resolved        findup: '^0.1.5',
+73 silly resolved        fullname: '^1.0.0',
+73 silly resolved        insight: '^0.4.3',
+73 silly resolved        'is-root': '^1.0.0',
+73 silly resolved        lodash: '^2.4.1',
+73 silly resolved        multiline: '^1.0.0',
+73 silly resolved        nopt: '^3.0.0',
+73 silly resolved        opn: '^1.0.0',
+73 silly resolved        shelljs: '^0.3.0',
+73 silly resolved        'string-length': '^1.0.0',
+73 silly resolved        'sudo-block': '^1.0.0',
+73 silly resolved        'underscore.string': '^2.3.3',
+73 silly resolved        'update-notifier': '^0.2.2',
+73 silly resolved        'yeoman-character': '^1.0.0',
+73 silly resolved        'yeoman-doctor': '^1.0.0',
+73 silly resolved        'yeoman-environment': '^1.0.1',
+73 silly resolved        'yeoman-generator': '^0.17.7',
+73 silly resolved        yosay: '^1.0.0' },
+73 silly resolved     devDependencies:
+73 silly resolved      { grunt: '^0.4.5',
+73 silly resolved        'grunt-cli': '^0.1.13',
+73 silly resolved        'grunt-contrib-jshint': '^0.10.0',
+73 silly resolved        'grunt-contrib-watch': '^0.6.1',
+73 silly resolved        'grunt-mocha-test': '^0.12.1',
+73 silly resolved        mocha: '^1.21.4',
+73 silly resolved        mockery: '^1.4.0',
+73 silly resolved        sinon: '^1.10.3' },
+73 silly resolved     engineStrict: true,
+73 silly resolved     preferGlobal: true,
+73 silly resolved     gitHead: '813c37641c928431260e908ef1b5723c0f18afab',
+73 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+73 silly resolved     homepage: 'https://github.com/yeoman/yo',
+73 silly resolved     _id: 'yo@1.3.3',
+73 silly resolved     _shasum: '732b053d6da401965ef146fe914d014474c37c1b',
+73 silly resolved     _from: 'yo@',
+73 silly resolved     _npmVersion: '2.1.2',
+73 silly resolved     _nodeVersion: '0.10.32',
+73 silly resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+73 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+73 silly resolved     dist:
+73 silly resolved      { shasum: '732b053d6da401965ef146fe914d014474c37c1b',
+73 silly resolved        tarball: 'http://registry.npmjs.org/yo/-/yo-1.3.3.tgz' },
+73 silly resolved     directories: {},
+73 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.3.3.tgz',
+73 silly resolved     readme: 'ERROR: No README data found!' },
+73 silly resolved   { name: 'generator-aurora',
+73 silly resolved     version: '0.3.0',
+73 silly resolved     description: 'Yeoman generator for creating the Aurora sub-theme.',
+73 silly resolved     license: 'MIT',
+73 silly resolved     main: 'app/index.js',
+73 silly resolved     repository:
+73 silly resolved      { type: 'git',
+73 silly resolved        url: 'https://github.com/Snugug/generator-aurora' },
+73 silly resolved     author: { name: 'Sam Richard', url: 'https://github.com/Snugug' },
+73 silly resolved     contributors: [ [Object] ],
+73 silly resolved     engines: { node: '>=0.10.0' },
+73 silly resolved     scripts: { test: 'mocha' },
+73 silly resolved     files: [ 'app' ],
+73 silly resolved     keywords: [ 'yeoman-generator', 'drupal' ],
+73 silly resolved     dependencies: { 'yeoman-generator': '~0.18.0' },
+73 silly resolved     devDependencies: { mocha: '*' },
+73 silly resolved     peerDependencies: { yo: '>=1.0.0', 'generator-drupal-theme': '>=0.1.5' },
+73 silly resolved     gitHead: 'b3c56e58ff98e12ca7ede8a31c7854faf91fce7c',
+73 silly resolved     bugs: { url: 'https://github.com/Snugug/generator-aurora/issues' },
+73 silly resolved     homepage: 'https://github.com/Snugug/generator-aurora',
+73 silly resolved     _id: 'generator-aurora@0.3.0',
+73 silly resolved     _shasum: 'a7ca64904c757f4d342a686a734bab761cd2f9d7',
+73 silly resolved     _from: 'generator-aurora@',
+73 silly resolved     _npmVersion: '2.1.6',
+73 silly resolved     _nodeVersion: '0.10.33',
+73 silly resolved     _npmUser: { name: 'iamcarrico', email: 'npm@iancarrico.com' },
+73 silly resolved     maintainers: [ [Object], [Object] ],
+73 silly resolved     dist:
+73 silly resolved      { shasum: 'a7ca64904c757f4d342a686a734bab761cd2f9d7',
+73 silly resolved        tarball: 'http://registry.npmjs.org/generator-aurora/-/generator-aurora-0.3.0.tgz' },
+73 silly resolved     directories: {},
+73 silly resolved     _resolved: 'https://registry.npmjs.org/generator-aurora/-/generator-aurora-0.3.0.tgz',
+73 silly resolved     readme: 'ERROR: No README data found!' } ]
+74 info install yo@1.3.3 into /usr/local/lib
+75 info install generator-aurora@0.3.0 into /usr/local/lib
+76 info installOne yo@1.3.3
+77 info installOne generator-aurora@0.3.0
+78 verbose lib/node_modules/yo unbuild
+79 verbose lib/node_modules/generator-aurora unbuild
+80 verbose tar unpack /Users/schets/.npm/yo/1.3.3/package.tgz
+81 silly lockFile 7d7c7bef-ar-usr-local-lib-node-modules-yo tar:///usr/local/lib/node_modules/yo
+82 verbose lock tar:///usr/local/lib/node_modules/yo /Users/schets/.npm/7d7c7bef-ar-usr-local-lib-node-modules-yo.lock
+83 silly lockFile 14dca4b4--schets-npm-yo-1-3-3-package-tgz tar:///Users/schets/.npm/yo/1.3.3/package.tgz
+84 verbose lock tar:///Users/schets/.npm/yo/1.3.3/package.tgz /Users/schets/.npm/14dca4b4--schets-npm-yo-1-3-3-package-tgz.lock
+85 verbose tar unpack /Users/schets/.npm/generator-aurora/0.3.0/package.tgz
+86 silly lockFile 103615f2-ib-node-modules-generator-aurora tar:///usr/local/lib/node_modules/generator-aurora
+87 verbose lock tar:///usr/local/lib/node_modules/generator-aurora /Users/schets/.npm/103615f2-ib-node-modules-generator-aurora.lock
+88 silly lockFile bc17e140-nerator-aurora-0-3-0-package-tgz tar:///Users/schets/.npm/generator-aurora/0.3.0/package.tgz
+89 verbose lock tar:///Users/schets/.npm/generator-aurora/0.3.0/package.tgz /Users/schets/.npm/bc17e140-nerator-aurora-0-3-0-package-tgz.lock
+90 silly gunzTarPerm modes [ '755', '644' ]
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 error Error: EACCES, mkdir '/usr/local/lib/node_modules/yo'
+92 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/yo']
+92 error   errno: 3,
+92 error   code: 'EACCES',
+92 error   path: '/usr/local/lib/node_modules/yo',
+92 error   fstream_type: 'Directory',
+92 error   fstream_path: '/usr/local/lib/node_modules/yo',
+92 error   fstream_class: 'DirWriter',
+92 error   fstream_stack:
+92 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+92 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+92 error      'Object.oncomplete (fs.js:108:15)' ] }
+93 error Please try running this command again as root/Administrator.
+94 error System Darwin 13.4.0
+95 error command "node" "/usr/local/bin/npm" "install" "-g" "yo" "generator-aurora"
+96 error cwd /Users/schets/Sites/tcduvels
+97 error node -v v0.10.35
+98 error npm -v 1.4.28
+99 error path /usr/local/lib/node_modules/yo
+100 error fstream_path /usr/local/lib/node_modules/yo
+101 error fstream_type Directory
+102 error fstream_class DirWriter
+103 error code EACCES
+104 error errno 3
+105 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/yo'
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+106 error fstream_stack Object.oncomplete (fs.js:108:15)
+107 verbose exit [ 3, true ]
