@@ -47,8 +47,10 @@
     <title><?php print $head_title; ?></title>
 
     <?php print $styles; ?>
+    <link rel="stylesheet" href="/themes/aurora/css/screen.css">
     <?php print $scripts; ?>
   </head>
+  
   <body class="<?php print $classes; ?>" <?php print $body_attributes;?>>
     <div id="skip-link">
       <a href="#main" class="element-invisible element-focusable" role="link"><?php print t('Skip to main content'); ?></a>
