@@ -8,7 +8,12 @@
 	@include border-box;
 }
 
+.clear {
+	clear: both;
+}
+
 html {
+	height: 100%;
 	-webkit-overflow-scrolling: touch;
 	-webkit-text-size-adjust: 100%;
 	    -ms-text-size-adjust: 100%;
@@ -19,6 +24,7 @@ html {
 }
 
 body {
+	height: 100%;
 	-webkit-font-smoothing: antialiased;
 	        font-smoothing: antialiased;
 	text-rendering : optimizelegibility;

@@ -67,9 +67,21 @@
  */
 ?>
 
+<?php if ($page['home_bg']): ?>
+  <div id="home-block">
+    <div id="home-background">
+      <?php print render($page['home_bg']); ?>
+    </div>
+    <div class="godown">
+    </div>
+  </div>
+<?php endif; ?>
+
+
 <?php if ($page['header']): ?>
   <header id="header" role="banner">
     <?php print render($page['header']); ?>
+    <div class="clear"></div>
   </header>
 <?php endif; ?>
 

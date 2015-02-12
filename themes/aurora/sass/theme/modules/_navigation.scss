@@ -1,3 +1,33 @@
+//
+// Navigation
+//
+
+#block-system-main-menu {
+	float: right;
+
+	@include padding-tb(0.1,0);
+
+	ul {
+		list-style-type: none;
+		float: right;
+	}
+
+	li {
+
+		float: right;
+		margin-left: 2em;
+	}
+
+	a {
+		color: $beta-text-color;
+	}
+}
+
+
+
+
+
+
 // Navigation
 .navigation {
 	background-color: $alpha-ui-color;

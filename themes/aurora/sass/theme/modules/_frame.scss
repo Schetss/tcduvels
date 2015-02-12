@@ -1,3 +1,56 @@
+//
+// Header
+//
+
+#toolbar {
+	z-index: 999;
+}
+
+
+#header {
+	z-index: 99;
+	height: 105px;
+	width: 100%;
+//	border-bottom: 1px solid $alpha-text-color;
+	position: fixed;
+	top: 0;
+
+	@include padding-tb(0.8,0.8);
+	@include px-padding-lr(2,2);
+}
+
+.logo {
+	float: left;
+	img {
+		width: 175px;
+		height: 63px;
+	}
+}
+
+
+//
+// Main
+//
+
+#main {
+	position: relative;
+	clear: both;
+}
+
+
+//
+// Footer
+//
+
+#footer {
+
+}
+
+
+
+
+
+
 .row {
 	@include px-padding-lr(2,2);
 
